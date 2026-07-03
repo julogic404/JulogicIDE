@@ -2,7 +2,7 @@
   <img src="https://avatars.githubusercontent.com/u/279220855?v=4&size=64" alt="AndroJuka" width="96" height="96"/>
 </p>
 
-# AndroJuka
+# JulogicIDE 
 
 > Um IDE moderno para desenvolvimento Android diretamente no seu dispositivo Android.
 
