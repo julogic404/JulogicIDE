@@ -1,28 +1,45 @@
 <p align="left">
-  <img src="https://avatars.githubusercontent.com/u/279220855?v=4&size=64" alt="JulogicIDE" width="96" height="96"/>
+  <img src="https://avatars.githubusercontent.com/u/279220855?v=4&size=64"
+       alt="JulogicIDE"
+       width="96"
+       height="96"/>
 </p>
 
 # JulogicIDE
 
-> A modern Android IDE built to develop Android applications directly on Android devices.
+> A modern Android IDE built to run directly on Android devices.
 
-**JulogicIDE** is an Integrated Development Environment (IDE) designed specifically for Android devices. It enables developers to create, edit, build, debug, and manage real Android applications using **Gradle**, **Kotlin**, **Java**, and a complete set of integrated development tools—without requiring a desktop computer.
+**JulogicIDE** is an **Open Source** project aiming to build a complete Android Integrated Development Environment (IDE) for smartphones and tablets.
 
-Our mission is to deliver a professional development experience on mobile, combining a powerful code editor, integrated terminal, build system, Git support, SDK management, Android tools, and an extensible plugin architecture in a single application.
-
----
-
-![Release](https://img.shields.io/github/v/release/JulogicIDE/JulogicIDE)
-![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
-![Platform](https://img.shields.io/badge/Platform-Android-success)
-![Kotlin](https://img.shields.io/badge/Kotlin-2.x-purple)
-![Gradle](https://img.shields.io/badge/Gradle-Latest-green)
+The goal is to provide a modern and productive development experience, allowing developers to create, edit, build, debug, and manage real Android applications using **Gradle**, **Kotlin**, **Java**, and other essential development tools—entirely on an Android device.
 
 ---
 
-# ✨ Features
+# 🚧 Project Status
 
-## 📝 Code Editor
+> **JulogicIDE is currently in the early stages of development.**
+
+At this stage, the project is focused on designing its architecture, building the user interface, and implementing the core modules.
+
+Most of the features described in this document represent the project's long-term vision and planned roadmap.
+
+Follow the project's progress through **Issues**, **Pull Requests**, and the **Roadmap**.
+
+---
+
+# 🎯 Our Vision
+
+Our vision is to make professional Android development possible anywhere, directly from a smartphone or tablet.
+
+JulogicIDE aims to combine productivity, performance, and a modern architecture to deliver an experience comparable to leading desktop IDEs while remaining optimized for mobile devices.
+
+We are building an open, extensible, and community-driven platform.
+
+---
+
+# ✨ Planned Features
+
+### 📝 Code Editor
 
 - Kotlin
 - Java
@@ -30,39 +47,30 @@ Our mission is to deliver a professional development experience on mobile, combi
 - Gradle Kotlin DSL
 - Syntax Highlighting
 - Intelligent Auto-completion
-- Code Folding
 - Multiple Tabs
 - Find & Replace
 - Fast File Navigation
 
----
+### 📁 Project Management
 
-## 📂 Project Manager
-
-- Create Android projects
-- Import existing projects
-- Recent Projects
-- File Explorer
+- Create Android Projects
+- Import Existing Projects
 - Material 3 Templates
+- File Explorer
 - Module Management
 
----
+### 🏗️ Build System
 
-## 🏗️ Build System
-
-- Gradle Support
+- Gradle
 - Gradle Kotlin DSL
-- Incremental Build
+- Incremental Builds
 - APK Generation
-- Android App Bundle (AAB) *(planned)*
-- APK Signing
+- Android App Bundle (AAB)
 
----
-
-## 🛠️ Development Tools
+### 🛠 Development Tools
 
 - Integrated Linux Terminal
-- Logcat Viewer
+- Logcat
 - Build Output
 - Problems Panel
 - IDE Diagnostics
@@ -70,123 +78,78 @@ Our mission is to deliver a professional development experience on mobile, combi
 - SDK Manager
 - JDK Manager
 
----
+### 🌿 Git Integration
 
-## 🌿 Git Integration
-
-- Clone Repository
+- Clone
 - Commit
 - Push
 - Pull
 - Branch Management
-- History Viewer
+- History
 - File Diff
 
----
+### 📱 Android Tools
 
-## 📱 Android Tools
-
+- Asset Studio
 - Resource Manager
 - AndroidManifest Editor
-- Icon Generator
-- Asset Studio
-- XML Editor
-- Visual Layout Designer *(planned)*
+- XML Preview
+- Visual Layout Designer
 
----
+### 🔌 Plugins
 
-## 🤖 AI Assistant (Pro)
+- Plugin System
+- Plugin Marketplace
+- Public Plugin API
 
-- Explain Code
-- Generate Code
-- Fix Errors
+### 🤖 AI *(Pro)*
+
+- Code Explanation
+- Code Generation
+- Error Fixing
 - Smart Refactoring
 - Project-aware AI Assistant
 
 ---
 
-## 🔌 Plugins
-
-- Plugin Marketplace
-- Plugin API
-- Community Extensions
-
----
-
-# 🚀 Installation
-
-Download the latest APK from the **GitHub Releases** page.
-
-After installing the application:
-
-1. Install the JDK
-2. Install the Android SDK
-3. Install the Android Build Tools
-4. Create your first project
-
-JulogicIDE will automatically download and configure the required development tools.
-
----
-
 # 🗺️ Roadmap
 
-- [x] Code Editor
-- [x] Integrated Terminal
-- [x] Gradle Build System
-- [x] Project Manager
-- [x] File Explorer
-- [x] Logcat
-- [x] Build Output
-- [x] IDE Diagnostics
-- [x] SDK Manager
-- [x] Git Integration
-- [ ] Visual XML Designer
-- [ ] Android Emulator
+## Phase 1 — Foundation
+
+- [ ] Project Architecture
+- [ ] Material Design 3 Interface
+- [ ] Project Manager
+- [ ] File Explorer
+- [ ] Code Editor
+
+## Phase 2 — Development
+
+- [ ] Integrated Terminal
+- [ ] Build System
+- [ ] Gradle Support
+- [ ] Logcat
+- [ ] IDE Diagnostics
+- [ ] SDK Manager
+
+## Phase 3 — Productivity
+
+- [ ] Git Integration
+- [ ] Plugin System
 - [ ] Plugin Marketplace
+- [ ] Visual XML Designer
+
+## Phase 4 — Advanced Features
+
 - [ ] AI Assistant
-- [ ] Cloud Sync
+- [ ] Cloud Synchronization
 - [ ] Real-time Collaboration
+- [ ] Android Emulator
 
 ---
 
-# 📦 Project Structure
+# 📦 Ecosystem
 
-```
-JulogicIDE
-├── app
-├── editor
-├── terminal
-├── gradle
-├── build
-├── git
-├── sdk
-├── diagnostics
-├── plugins
-└── ai
-```
-
----
-
-# 🤝 Contributing
-
-Contributions are always welcome!
-
-You can help by:
-
-- Reporting bugs
-- Fixing issues
-- Improving documentation
-- Translating the application
-- Developing plugins
-- Suggesting new features
-
-Please read **CONTRIBUTING.md** before opening a Pull Request.
-
----
-
-# 🌎 JulogicIDE Ecosystem
-
-The project is organized into multiple official repositories.
+JulogicIDE will be organized into multiple repositories to simplify maintenance and future expansion.
 
 | Repository | Description |
 |------------|-------------|
@@ -199,44 +162,50 @@ The project is organized into multiple official repositories.
 
 ---
 
-# 💎 JulogicIDE Pro
+# 💎 JulogicIDE Pro *(Planned)*
 
-The Pro edition extends the Community Edition with premium features, including:
+The Pro edition is planned to extend the Community Edition with additional professional features, including:
 
 - AI Assistant
 - Cloud Synchronization
 - Premium Marketplace
-- Advanced Diagnostics
-- Team Collaboration
-- Professional Productivity Tools
+- Advanced Productivity Tools
+- Professional Diagnostics
+- Team Collaboration Features
 
 ---
 
-# ❤️ Acknowledgements
+# 🤝 Contributing
 
-Special thanks to all open-source projects that make JulogicIDE possible.
+JulogicIDE is an Open Source project, and contributions of all kinds are welcome.
 
-- Android Open Source Project (AOSP)
-- Kotlin
-- Gradle
-- AndroidX
-- Termux
-- Sora Editor
+You can help by:
 
-And to every contributor helping improve JulogicIDE.
+- 🐞 Reporting bugs
+- 💡 Suggesting new features
+- 🔧 Fixing issues
+- 📝 Improving documentation
+- 🌍 Translating the project
+- 🔌 Developing plugins
+
+---
+
+# ⭐ Support the Project
+
+If you like the idea behind JulogicIDE, consider:
+
+- ⭐ Starring the repository
+- 🍴 Forking the project
+- 🐞 Reporting bugs
+- 💬 Sharing the project
+- 🤝 Contributing to the codebase
+
+Your support helps JulogicIDE grow and improve.
 
 ---
 
 # 📄 License
 
-Copyright © 2026 JulogicIDE Contributors.
+This project is licensed under the **Apache License 2.0**.
 
-Licensed under the **Apache License, Version 2.0**.
-
-You are free to use, modify, and distribute this software, including for commercial purposes, provided that the original copyright notice and license are preserved.
-
-See the **LICENSE** file for the complete license text.
-
----
-
-⭐ If you find JulogicIDE useful, consider giving the project a **star** on GitHub to support its growth!
+See the **LICENSE** file for more information.
