@@ -11,7 +11,7 @@
 
 **JulogicIDE** is an **Open Source** project aiming to build a complete Android Integrated Development Environment (IDE) for smartphones and tablets.
 
-The goal is to provide a modern and productive development experience, allowing developers to create, edit, build, debug, and manage real Android applications using **Gradle**, **Kotlin**, **Java**, and other essential development tools—entirely on an Android device.
+The goal is to provide a modern and productive development experience, allowing developers to create, edit, build, debug, and manage real Android applications using **Gradle**, **Kotlin**, **Java**, **Compose**, and other essential development tools—entirely on an Android device.
 
 ---
 
