@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="assets/icon.png" alt="JulogicIDE" width="96" height="96"/>
+  <img src="https://avatars.githubusercontent.com/u/279220855?v=4&size=64" alt="JulogicIDE" width="96" height="96"/>
 </p>
 
 # JulogicIDE
