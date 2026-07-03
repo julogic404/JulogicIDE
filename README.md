@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="assets/icon.png" alt="AndroJuka" width="96" height="96"/>
+  <img src="https://avatars.githubusercontent.com/u/279220855?v=4&size=64" alt="AndroJuka" width="96" height="96"/>
 </p>
 
 # AndroJuka
