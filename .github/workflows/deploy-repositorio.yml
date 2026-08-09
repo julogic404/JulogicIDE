@@ -27,8 +27,16 @@ jobs:
 
       - name: Stage repositorio
         run: |
+          set -e
+          if [ ! -d repositorio ]; then
+            echo "::error::A pasta 'repositorio/' nao existe na branch main deste repositorio. Faz push dela primeiro."
+            exit 1
+          fi
           mkdir -p _site/repositorio
-          cp -r repositorio/* _site/repositorio/
+          cp -r repositorio/. _site/repositorio/
+          echo '<!doctype html><meta charset="utf-8"><title>JulogicIDE</title><h1>JulogicIDE</h1><p><a href="repositorio/index.json">repositorio/index.json</a></p>' > _site/index.html
+          ls -R _site
+
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
