@@ -1,0 +1,190 @@
+{
+  "version": 4,
+  "generatedAt": "2026-08-08T00:00:00Z",
+  "baseUrl": "https://github.com/julogic404/julogic-sistema-compilacao/releases/download/v1.0.0",
+  "observacao": "Pacotes servidos pelo release espelho v1.0.0 do repositório julogic-sistema-compilacao. SHA-256 e tamanhos calculados a partir dos próprios assets publicados. Os pacotes Google (build-tools/platform-tools/platforms) continuam apontando para dl.google.com até serem espelhados.",
+  "channels": {
+    "stable": "updates/stable.json",
+    "beta": "updates/beta.json"
+  },
+  "categories": [
+    "jdk",
+    "gradle",
+    "kotlin",
+    "sdk",
+    "build-tools",
+    "platform-tools",
+    "cmdline-tools",
+    "language-servers",
+    "templates",
+    "plugins",
+    "emulators"
+  ],
+  "packages": [
+    {
+      "id": "jdk21",
+      "category": "jdk",
+      "name": "OpenJDK 21 (Temurin)",
+      "version": "21.0.11",
+      "size": 205692516,
+      "url": "https://github.com/julogic404/julogic-sistema-compilacao/releases/download/v1.0.0/OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.11_10.tar.gz",
+      "format": "tar.gz",
+      "sha256": "8d498ec88e1c1989fab95c6784240ab92d011e29c54d20a3f9c324b13476f9ad",
+      "abi": [
+        "arm64-v8a"
+      ],
+      "requires": [],
+      "installTo": "jdk/21.0.11"
+    },
+    {
+      "id": "jdk17",
+      "category": "jdk",
+      "name": "OpenJDK 17 (Temurin)",
+      "version": "17.0.19",
+      "size": 192041703,
+      "url": "https://github.com/julogic404/julogic-sistema-compilacao/releases/download/v1.0.0/OpenJDK17U-jdk_aarch64_linux_hotspot_17.0.19_10.tar.gz",
+      "format": "tar.gz",
+      "sha256": "83a52172678ec8975164648654869cb2e71d7c748b47aca94b29bbfa10c18e81",
+      "abi": [
+        "arm64-v8a"
+      ],
+      "requires": [],
+      "installTo": "jdk/17.0.19"
+    },
+    {
+      "id": "gradle-9.6.1",
+      "category": "gradle",
+      "name": "Gradle 9.6.1",
+      "version": "9.6.1",
+      "size": 140682664,
+      "url": "https://github.com/julogic404/julogic-sistema-compilacao/releases/download/v1.0.0/gradle-9.6.1-bin.zip",
+      "format": "zip",
+      "sha256": "9c0f7faeeb306cb14e4279a3e084ca6b596894089a0638e68a07c945a32c9e14",
+      "requires": [
+        "jdk21"
+      ],
+      "installTo": "gradle/9.6.1"
+    },
+    {
+      "id": "gradle-9.0.0",
+      "category": "gradle",
+      "name": "Gradle 9.0.0",
+      "version": "9.0.0",
+      "size": 134491514,
+      "url": "https://github.com/julogic404/julogic-sistema-compilacao/releases/download/v1.0.0/gradle-9.0.0-bin.zip",
+      "format": "zip",
+      "sha256": "8fad3d78296ca518113f3d29016617c7f9367dc005f932bd9d93bf45ba46072b",
+      "requires": [
+        "jdk21"
+      ],
+      "installTo": "gradle/9.0.0"
+    },
+    {
+      "id": "gradle-8.14.3",
+      "category": "gradle",
+      "name": "Gradle 8.14.3",
+      "version": "8.14.3",
+      "size": 137393837,
+      "url": "https://github.com/julogic404/julogic-sistema-compilacao/releases/download/v1.0.0/gradle-8.14.3-bin.zip",
+      "format": "zip",
+      "sha256": "bd71102213493060956ec229d946beee57158dbd89d0e62b91bca0fa2c5f3531",
+      "requires": [
+        "jdk17"
+      ],
+      "installTo": "gradle/8.14.3"
+    },
+    {
+      "id": "kotlin-2.4.0",
+      "category": "kotlin",
+      "name": "Kotlin Compiler 2.4.0",
+      "version": "2.4.0",
+      "size": 87073707,
+      "url": "https://github.com/julogic404/julogic-sistema-compilacao/releases/download/v1.0.0/kotlin-compiler-2.4.0.zip",
+      "format": "zip",
+      "sha256": "ba1b9e6eb6ddc3275079224f2e9ea4a2b02eef7d59ce2d38404f04b22613c20a",
+      "requires": [
+        "jdk21"
+      ],
+      "installTo": "kotlin/2.4.0"
+    },
+    {
+      "id": "kotlin-1.9.0",
+      "category": "kotlin",
+      "name": "Kotlin Compiler 1.9.0",
+      "version": "1.9.0",
+      "size": 80024303,
+      "url": "https://github.com/julogic404/julogic-sistema-compilacao/releases/download/v1.0.0/kotlin-compiler-1.9.0.zip",
+      "format": "zip",
+      "sha256": "1fc50d805f9809e92de43e91f089cc8618567c1a350faebdabf8a40c5048bee8",
+      "requires": [
+        "jdk17"
+      ],
+      "installTo": "kotlin/1.9.0"
+    },
+    {
+      "id": "cmdline-tools",
+      "category": "cmdline-tools",
+      "name": "Android Command-line Tools",
+      "version": "14742923",
+      "size": 172789259,
+      "url": "https://github.com/julogic404/julogic-sistema-compilacao/releases/download/v1.0.0/commandlinetools-linux-14742923_latest.zip",
+      "format": "zip",
+      "sha256": "04453066b540409d975c676d781da1477479dde3761310f1a7eb92a1dfb15af7",
+      "requires": [
+        "jdk17"
+      ],
+      "installTo": "sdk/cmdline-tools/latest"
+    },
+    {
+      "id": "build-tools-34.0.0",
+      "category": "build-tools",
+      "name": "Android Build Tools 34.0.0",
+      "version": "34.0.0",
+      "size": 61224257,
+      "url": "https://dl.google.com/android/repository/build-tools_r34-linux.zip",
+      "format": "zip",
+      "sha256": "e858c4b60069d0431051b225d384413b1643e1289b00a4825aed347f25bd510f",
+      "abi": [
+        "x86_64"
+      ],
+      "requires": [
+        "jdk17"
+      ],
+      "installTo": "sdk/build-tools/34.0.0"
+    },
+    {
+      "id": "platform-tools",
+      "category": "platform-tools",
+      "name": "Android Platform Tools (adb, fastboot)",
+      "version": "35.0.2",
+      "size": 7472902,
+      "url": "https://dl.google.com/android/repository/platform-tools_r35.0.2-linux.zip",
+      "format": "zip",
+      "sha256": "acfdcccb123a8718c46c46c059b2f621140194e5ec1ac9d81715be3d6ab6cd0a",
+      "abi": [
+        "x86_64"
+      ],
+      "requires": [],
+      "installTo": "sdk/platform-tools"
+    },
+    {
+      "id": "sdk-platform-35",
+      "category": "sdk",
+      "name": "Android SDK Platform 35 (android.jar)",
+      "version": "35",
+      "size": 64273788,
+      "url": "https://dl.google.com/android/repository/platform-35_r02.zip",
+      "format": "zip",
+      "sha256": "0988cacad01b38a18a47bac14a0695f246bc76c1b06c0eeb8eb0dc825ab0c8e0",
+      "requires": [],
+      "installTo": "sdk/platforms/android-35"
+    }
+  ],
+  "pendentes": {
+    "descricao": "Pacotes referenciados pela IDE mas ainda sem release publicada. Ver PENDENTE_UPLOADS.md na raiz.",
+    "ids": [
+      "kotlin-language-server",
+      "java-language-server"
+    ]
+  }
+    }
