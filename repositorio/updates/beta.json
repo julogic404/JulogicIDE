@@ -1,0 +1,7 @@
+{
+  "channel": "beta",
+  "manifestVersion": 1,
+  "manifestUrl": "https://julogic404.github.io/JulogicIDE/repositorio/index.beta.json",
+  "minAppVersion": "1.0.0",
+  "notes": "Canal beta. Pacotes em teste antes de promover para stable."
+}
