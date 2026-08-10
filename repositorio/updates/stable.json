@@ -1,0 +1,7 @@
+{
+  "channel": "stable",
+  "manifestVersion": 1,
+  "manifestUrl": "https://julogic404.github.io/JulogicIDE/repositorio/index.json",
+  "minAppVersion": "1.0.0",
+  "notes": "Canal estável. Alterações neste ficheiro disparam notificação de atualização na IDE."
+}
