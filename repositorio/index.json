@@ -1,8 +1,8 @@
 {
-  "version": 4,
+  "version": 5,
   "generatedAt": "2026-08-08T00:00:00Z",
   "baseUrl": "https://github.com/julogic404/julogic-sistema-compilacao/releases/download/v1.0.0",
-  "observacao": "Pacotes servidos pelo release espelho v1.0.0 do repositório julogic-sistema-compilacao. SHA-256 e tamanhos calculados a partir dos próprios assets publicados. Os pacotes Google (build-tools/platform-tools/platforms) continuam apontando para dl.google.com até serem espelhados.",
+  "observacao": "Pacotes servidos pelo release espelho v1.0.0 do repositório julogic-sistema-compilacao. SHA-256 e tamanhos calculados a partir dos próprios assets publicados. Todos os pacotes são servidos pelo espelho v1.0.0. build-tools e platform-tools usam as builds aarch64 (arm64-v8a) — as variantes arm/x86_64 publicadas no release não são referenciadas.",
   "channels": {
     "stable": "updates/stable.json",
     "beta": "updates/beta.json"
@@ -136,33 +136,33 @@
       "installTo": "sdk/cmdline-tools/latest"
     },
     {
-      "id": "build-tools-34.0.0",
+      "id": "build-tools-34.0.4",
       "category": "build-tools",
-      "name": "Android Build Tools 34.0.0",
-      "version": "34.0.0",
-      "size": 61224257,
-      "url": "https://dl.google.com/android/repository/build-tools_r34-linux.zip",
-      "format": "zip",
-      "sha256": "e858c4b60069d0431051b225d384413b1643e1289b00a4825aed347f25bd510f",
+      "name": "Android Build Tools 34.0.4 (aarch64)",
+      "version": "34.0.4",
+      "size": 41666832,
+      "url": "https://github.com/julogic404/julogic-sistema-compilacao/releases/download/v1.0.0/build-tools-34.0.4-aarch64.tar.xz",
+      "format": "tar.xz",
+      "sha256": "4bbbdeee608ff8d3a2c1534d0a5270305a02b1f200403a536c75ac84c41e52fa",
       "abi": [
-        "x86_64"
+        "arm64-v8a"
       ],
       "requires": [
         "jdk17"
       ],
-      "installTo": "sdk/build-tools/34.0.0"
+      "installTo": "sdk/build-tools/34.0.4"
     },
     {
       "id": "platform-tools",
       "category": "platform-tools",
-      "name": "Android Platform Tools (adb, fastboot)",
-      "version": "35.0.2",
-      "size": 7472902,
-      "url": "https://dl.google.com/android/repository/platform-tools_r35.0.2-linux.zip",
-      "format": "zip",
-      "sha256": "acfdcccb123a8718c46c46c059b2f621140194e5ec1ac9d81715be3d6ab6cd0a",
+      "name": "Android Platform Tools 34.0.4 (aarch64)",
+      "version": "34.0.4",
+      "size": 4354052,
+      "url": "https://github.com/julogic404/julogic-sistema-compilacao/releases/download/v1.0.0/platform-tools-34.0.4-aarch64.tar.xz",
+      "format": "tar.xz",
+      "sha256": "08b5b5c9899201081586f8f8682882784458ff67e6421cef65b1d6a0da877236",
       "abi": [
-        "x86_64"
+        "arm64-v8a"
       ],
       "requires": [],
       "installTo": "sdk/platform-tools"
@@ -173,7 +173,7 @@
       "name": "Android SDK Platform 35 (android.jar)",
       "version": "35",
       "size": 64273788,
-      "url": "https://dl.google.com/android/repository/platform-35_r02.zip",
+      "url": "https://github.com/julogic404/julogic-sistema-compilacao/releases/download/v1.0.0/platform-35_r02.zip",
       "format": "zip",
       "sha256": "0988cacad01b38a18a47bac14a0695f246bc76c1b06c0eeb8eb0dc825ab0c8e0",
       "requires": [],
@@ -187,4 +187,4 @@
       "java-language-server"
     ]
   }
-    }
+        }
